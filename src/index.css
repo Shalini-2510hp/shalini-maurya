@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme {
+  --font-gotu: "Gotu", "Playfair Display", Georgia, serif;
+  --font-display: "Playfair Display", "Newsreader", Georgia, serif;
+  --font-serif: "Newsreader", "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-dhanrit-navy: #0B1E3F;
+  --color-dhanrit-orange: #E05315;
+  --color-dhanrit-orange-hover: #C9450D;
+  --color-dhanrit-bg: #FAF6F0;
+  --color-dhanrit-middle: #F7F2EA;
+  --color-dhanrit-blue-light: #EAF2F8;
+
+  --color-paper: #FAF6F0;
+  --color-paper-card: #FFFFFF;
+  --color-paper-subtle: #F3ECE1;
+  --color-paper-muted: #EAE3D6;
+  
+  --color-ink: #0B1E3F;
+  --color-ink-secondary: #4A5568;
+  --color-ink-muted: #7E8B9E;
+  
+  --color-terracotta: #E05315;
+  --color-terracotta-dark: #C9450D;
+  --color-terracotta-soft: #FDF3ED;
+}
+
+:root {
+  font-family: var(--font-sans);
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  color-scheme: light;
+}
+
+/* Editorial selection style */
+::selection {
+  background-color: #F0DDD4;
+  color: #0B1528;
+}
+
+/* Accessible focus visible rings */
+*:focus-visible {
+  outline: 1.5px solid #C85A32;
+  outline-offset: 2px;
+}
+
+/* Subtle paper texture simulation via gentle noise */
+.paper-grain {
+  background-color: #FAF7F2;
+  background-image: radial-gradient(rgba(11, 21, 40, 0.035) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Delicate ledger ruled paper styling */
+.ledger-ruled {
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent,
+    transparent 31px,
+    #E8EFF5 31px,
+    #E8EFF5 32px
+  );
+}
+
