@@ -64,17 +64,6 @@ export const ComingSoonLanding: React.FC<ComingSoonLandingProps> = ({
       {/* 2. COMING SOON SECTION                                       */}
       {/* ============================================================ */}
       <section className="relative bg-[#E8EFF7] border-t border-[#EDE4D8] px-6 sm:px-10 lg:px-16 py-12 sm:py-16 overflow-hidden flex-grow flex items-center">
-        
-        {/* Soft background landscape aesthetic curves */}
-        <div
-          className="absolute -left-12 bottom-0 w-72 h-48 bg-[#F5E9DC] rounded-tr-[100px] pointer-events-none opacity-80"
-          aria-hidden="true"
-        />
-        <div
-          className="absolute -right-10 bottom-0 w-80 h-52 bg-[#D5E5F4] rounded-tl-[120px] pointer-events-none opacity-60"
-          aria-hidden="true"
-        />
-
         <div className="max-w-7xl mx-auto w-full grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-10 items-center relative z-10">
           
           {/* Left: Coming soon headline */}
