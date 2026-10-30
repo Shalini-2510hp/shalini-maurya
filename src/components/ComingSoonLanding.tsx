@@ -35,7 +35,7 @@ export const ComingSoonLanding: React.FC<ComingSoonLandingProps> = ({
           {/* Left Column: Headline & Description */}
           <div className="lg:col-span-5 flex flex-col items-start z-10">
             <h1 className="font-gotu text-5xl sm:text-6xl lg:text-[62px] xl:text-[70px] font-bold tracking-tight text-[#0B1E3F] leading-[1.12] text-balance [-webkit-text-stroke:0.35px_currentColor]">
-              Udhaar ab <br />
+              Udhari ab <br />
               <span className="text-[#E05315]">samajhdari se.</span>
             </h1>
 

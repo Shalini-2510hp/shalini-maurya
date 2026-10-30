@@ -5,7 +5,7 @@
 
 export const SITE_CONFIG = {
   brandName: "Dhanrit",
-  tagline: "Udhaar ab samajhdari se.",
+  tagline: "Udhari ab samajhdari se.",
   supportingDescription:
     "Dhanrit is exploring a simpler way for small merchants to manage udhaar, make informed credit decisions, and track repayments.",
 
